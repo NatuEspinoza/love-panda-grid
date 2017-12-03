@@ -1,5 +1,20 @@
+/* Clases generales */
+
+* {
+  color: #FFF;
+}
+
+body {
+  background: #abe188;
+}
+
 nav .nav-wrapper {
   height: 10em;
+}
+
+h3 {
+  text-align: center;
+  margin-top: 2em;
 }
 
 h6 {
@@ -8,4 +23,75 @@ h6 {
 
 h2, h6 {
   margin-right: 3rem;
+}
+
+img {
+  filter: grayscale(100);
+}
+
+/* Estilos para modificar el margin y padding de los rows y cols */
+
+.row {
+  margin-bottom: 0;
+}
+
+.row .col {
+  padding: 0;
+}
+
+/* Estilos de las imágenes grandes */
+
+.img img {
+  max-width: 100%;
+  width: 120%;
+  height: auto;
+}
+
+.img2 img {
+  max-width: 100%;
+  width: 120%;
+  height: auto;
+}
+
+.img {
+  background: #ff8a65;
+  border-bottom: 1em solid #ff8a65;
+  border-top: 1.5em solid #ff8a65;
+}
+
+.img2 {
+  background: #ff8a65;
+  border-bottom: 0;
+  border-top: 1.5em solid #ff8a65;
+}
+
+/* Estilo de la caja de texto */
+
+.box-text {
+  background: #ff8a65;
+  text-align: center;
+  padding: 5em;
+  margin-top: 5em;
+  margin-bottom: 5em;
+}
+
+/* Estilos galería de imágenes pequeñas */
+
+.img-small img {
+  border: .5em solid #FFF;
+  margin-right: 1.7em;
+  width: 190px;
+  height: auto;
+  filter: none;
+}
+
+.img-small {
+  margin-bottom: 6em;
+}
+
+/* Estilos del pie de página */
+
+.page-footer {
+  background: #ff8a65;
+  text-align: center;
 }
