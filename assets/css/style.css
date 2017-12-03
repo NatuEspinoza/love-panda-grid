@@ -1,0 +1,11 @@
+nav .nav-wrapper {
+  height: 10em;
+}
+
+h6 {
+  margin: 7rem 0 .4rem 0;
+}
+
+h2, h6 {
+  margin-right: 3rem;
+}
