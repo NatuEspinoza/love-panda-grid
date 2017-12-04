@@ -18,10 +18,10 @@ h3 {
 }
 
 h6 {
-  margin: 7rem 0 .4rem 0;
+  margin: 7rem 3rem 0 0;
 }
 
-h2, h6 {
+h1 {
   margin-right: 3rem;
 }
 
@@ -68,9 +68,6 @@ img {
 /* Estilo de la caja de texto */
 
 .box-text {
-  background: #ff8a65;
-  text-align: center;
-  padding: 5em;
   margin-top: 5em;
   margin-bottom: 5em;
 }
